@@ -3,7 +3,12 @@
     --text-color: #ffa000;
 }
 
-header{
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
     background-color: var(--background-color);
     display: flex;
     justify-content: center;
@@ -18,7 +23,6 @@ header{
 
 nav {
     height: 48px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .menu {
@@ -26,11 +30,12 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--text-color);
-    justify-content: space-around;
+    background-color:var(--text-color);
+    justify-content: space-evenly;
     position: relative;
+    font-weight: bold;
     min-height: 48px;
-    top: -32px;
+    top: -15px;
 }
 
 a {
@@ -38,10 +43,83 @@ a {
     color: white;
 }
 
+body>picture {
+    position: relative;
+    top: -15px;
+}
+
+body>picture>p {
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
+    position: absolute;
+    top: -450px;
+    right: 100px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+#titulo {
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.receitas {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    justify-content: center;
+    align-content: space-between;
+    gap: 50px;
+    gap: 50px;
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
+
+.button {
+    background-color: #176902;
+    color: white;
+    width: 185px;
+    height: 48px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    align-content: cente;
+    border: none;
+}
+
+#ft{
+    position: relative;
+    top: -19px;
+}
+
+#comer{
+    color: white;
+    position: absolute;
+    top: -500px;
+    left: 99px;
+    font-size: 65px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#text-home {
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 300;
+    font-weight: 500;
+    font-size: 24px;
+    position: absolute;
+    top: -385px;
+    left: 99px;
+}
+
 footer {
     background-color: var(--background-color);
     position: relative;
-    top: 10px;
+    top: 90px;
     min-height: 119px;
     display: flex;
     align-items: center;

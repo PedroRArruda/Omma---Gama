@@ -3,6 +3,11 @@
     --text-color: #ffa000;
 }
 
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .break{
     flex-basis: 100%;
     height: 0%;
@@ -23,7 +28,6 @@ header{
 
 nav {
     height: 48px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .menu {
@@ -32,10 +36,10 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: var(--text-color);
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: relative;
     min-height: 48px;
-    top: -32px;
+    top: -15px;
 }
 
 a {
@@ -45,7 +49,6 @@ a {
 
 body main h1{
     align-content: flex-end;
-    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     position: relative;
     top: 80px;
@@ -54,7 +57,6 @@ body main h1{
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 
 }
@@ -62,14 +64,13 @@ body{
 main{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 100px;
     justify-content: center;
     align-content:space-between;
     gap: 50px;
     gap: 50px;
     text-align: center;
     position: relative;
-    top: -70px;
+    top: -38px;
 }
 
 .button{
@@ -78,9 +79,8 @@ main{
     width: 185px;
     height: 48px; 
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    align-content: cente;
+    align-content: center;
     border: none;
 }
 
@@ -92,5 +92,4 @@ footer {
     display: flex;
     align-items: center;
     color: white;
-    font-family: 'Montserrat', sans-serif;
 }
