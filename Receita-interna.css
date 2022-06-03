@@ -27,11 +27,12 @@ header{
     top: 40px;
     display: flex;
     flex-direction: column;
+    margin: 30px;
 }
 
 .texto h3{
     position:relative;
-    top: 35px;
+    top: -5px;
 }
 
 .texto-2 {
@@ -69,13 +70,19 @@ nav {
     justify-content: space-around;
     position: relative;
     min-height: 48px;
-    top: -32px;
+    top: -16px;
 }
 
 main article section h1 {
     color: var(--text-color);
     font-size: 50px;
     margin: 10px;
+}
+
+.video{
+    margin: 20px;
+    position: relative;
+    top: 16px;
 }
 
 footer {
